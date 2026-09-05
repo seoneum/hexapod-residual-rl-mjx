@@ -1,5 +1,7 @@
 # SPIDER MuJoCo 변환/학습 스택 공부 문서
 
+> **Archive notice (2026-09-06):** 이 문서는 과거 private `mujoco_tuto` 저장소의 원문을 provenance와 학습 맥락 보존을 위해 옮긴 역사 자료다. 아래 `/home/huro/...` 경로와 실행 증거는 당시 workspace 기준이며, 현재 저장소의 실행 지침이나 source of truth가 아니다. 현재 구현은 루트 `README.md`, `SW/mjx/`, `docs/RESIDUAL_RL.md`를 따른다. 보존된 당시 코드는 `reference/spider_rl/`에서 확인할 수 있다.
+
 이 문서는 **다른 AI나 다른 사람한테 그대로 넘겨도 맥락이 유지되도록** 만든 해설 문서다. 목적은 두 가지다.
 
 1. 지금 만들어진 HEXAPEDAL URDF -> MJCF -> MuJoCo 학습 경로를 빠르게 재실행하기

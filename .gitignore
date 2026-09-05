@@ -1,6 +1,7 @@
 *.swp
 *.pyc
 __pycache__/
+.venv/
 .ipynb_checkpoints/
 wandb/
 SW/mjx/artifacts/
