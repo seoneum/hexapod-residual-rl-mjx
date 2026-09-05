@@ -178,4 +178,8 @@ GIF는 run directory에 그대로 저장된다.
 
 ## 참고 자료
 
-`완전 튜토리얼.md`는 초기 MuJoCo/Isaac 학습을 위한 배경 자료다. 현재 MJX residual 구현의 명세나 실행 기준은 [docs/RESIDUAL_RL.md](docs/RESIDUAL_RL.md)다.
+- `완전 튜토리얼.md`: 초기 MuJoCo/Isaac 학습 배경
+- [`docs/SPIDER_MUJOCO_STUDY_GUIDE.md`](docs/SPIDER_MUJOCO_STUDY_GUIDE.md): HEXAPEDAL URDF를 MuJoCo 학습 환경으로 옮긴 과정
+- `reference/spider_rl/`: 이전 `mujoco_tuto` 저장소에서 보존한 slim reference 구현과 테스트
+
+현재 MJX residual 구현의 명세와 실행 기준은 [docs/RESIDUAL_RL.md](docs/RESIDUAL_RL.md) 하나를 따른다. `reference/`는 비교·학습용이며 현재 source of truth가 아니다.
